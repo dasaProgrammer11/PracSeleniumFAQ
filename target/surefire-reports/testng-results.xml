@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.nord.feTest.HelpPageTest" duration-ms="8607" started-at="2022-11-10T22:28:14 CET" finished-at="2022-11-10T22:28:23 CET">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8607" started-at="2022-11-10T22:28:14 CET" finished-at="2022-11-10T22:28:23 CET">
+      <class name="com.nord.feTest.HelpPageTest">
+        <test-method status="PASS" signature="initiateDriverLoadURL()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="initiateDriverLoadURL" is-config="true" duration-ms="5978" started-at="2022-11-10T22:28:14 CET" finished-at="2022-11-10T22:28:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateDriverLoadURL -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="setUp" is-config="true" duration-ms="300" started-at="2022-11-10T22:28:20 CET" finished-at="2022-11-10T22:28:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="FAQTest()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="FAQTest" duration-ms="1614" started-at="2022-11-10T22:28:20 CET" finished-at="2022-11-10T22:28:22 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FAQTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="afterTest" is-config="true" duration-ms="660" started-at="2022-11-10T22:28:22 CET" finished-at="2022-11-10T22:28:23 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.nord.feTest.HelpPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.nord.feTest.HelpPageTest -->
+</testng-results>
