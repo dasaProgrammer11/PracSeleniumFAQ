@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="com.nord.feTest.HelpPageTest" duration-ms="8607" started-at="2022-11-10T22:28:14 CET" finished-at="2022-11-10T22:28:23 CET">
+  <suite name="com.nord.feTest.HelpPageTest" duration-ms="15118" started-at="2022-11-17T01:23:07 CET" finished-at="2022-11-17T01:23:23 CET">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="8607" started-at="2022-11-10T22:28:14 CET" finished-at="2022-11-10T22:28:23 CET">
+    <test name="Command line test" duration-ms="15118" started-at="2022-11-17T01:23:07 CET" finished-at="2022-11-17T01:23:23 CET">
       <class name="com.nord.feTest.HelpPageTest">
-        <test-method status="PASS" signature="initiateDriverLoadURL()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="initiateDriverLoadURL" is-config="true" duration-ms="5978" started-at="2022-11-10T22:28:14 CET" finished-at="2022-11-10T22:28:20 CET">
+        <test-method status="PASS" signature="initiateDriverLoadURL()[pri:0, instance:com.nord.feTest.HelpPageTest@5a1c0542]" name="initiateDriverLoadURL" is-config="true" duration-ms="10705" started-at="2022-11-17T01:23:07 CET" finished-at="2022-11-17T01:23:18 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateDriverLoadURL -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="setUp" is-config="true" duration-ms="300" started-at="2022-11-10T22:28:20 CET" finished-at="2022-11-10T22:28:20 CET">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nord.feTest.HelpPageTest@5a1c0542]" name="setUp" is-config="true" duration-ms="603" started-at="2022-11-17T01:23:18 CET" finished-at="2022-11-17T01:23:19 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="FAQTest()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="FAQTest" duration-ms="1614" started-at="2022-11-10T22:28:20 CET" finished-at="2022-11-10T22:28:22 CET">
+        <test-method status="PASS" signature="FAQTest()[pri:0, instance:com.nord.feTest.HelpPageTest@5a1c0542]" name="FAQTest" duration-ms="2924" started-at="2022-11-17T01:23:19 CET" finished-at="2022-11-17T01:23:22 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FAQTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nord.feTest.HelpPageTest@56aac163]" name="afterTest" is-config="true" duration-ms="660" started-at="2022-11-10T22:28:22 CET" finished-at="2022-11-10T22:28:23 CET">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nord.feTest.HelpPageTest@5a1c0542]" name="afterTest" is-config="true" duration-ms="810" started-at="2022-11-17T01:23:22 CET" finished-at="2022-11-17T01:23:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

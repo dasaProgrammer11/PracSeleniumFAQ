@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.nord.feTest.HelpPageTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.279 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.962 sec

@@ -18,7 +18,7 @@ public class FAQPage {
     public FAQPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
-        logger = LoggerFactory.getLogger(FAQPage.class);
+        logger = LoggerFactory.getLogger(this.getClass());
     }
 
     public LatestNewsCard getLatestNewsWidget() {
@@ -42,7 +42,7 @@ public class FAQPage {
 
         public void printLatestNewsLinkText() {
             for (WebElement news : latestNewsLinkList) {
-                System.out.println(news.getText());
+                logger.info("news text::::"+news.getText());
             }
         }
 

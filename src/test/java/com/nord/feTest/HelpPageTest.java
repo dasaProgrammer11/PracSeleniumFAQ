@@ -8,6 +8,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
@@ -20,6 +22,7 @@ import java.time.Duration;
 public class HelpPageTest {
     WebDriver driver;
     WebDriverWait wait;
+    Logger logger;
     CookiesDialog cookiesDialog;
     FAQPage faqPage;
     LatestNewsCard latestNewsCard;
@@ -27,6 +30,7 @@ public class HelpPageTest {
 
     @BeforeClass
     private void setUp() {
+        logger=LoggerFactory.getLogger(this.getClass());
         WebDriverManager.chromedriver().setup();
     }
 
@@ -47,12 +51,12 @@ public class HelpPageTest {
 
         //Print out count of card links
         int numberOfLink = latestNewsCard.countLatestNewsLink();
-        System.out.println("number of link::::" + numberOfLink);
+        logger.info("number of link::::" + numberOfLink);
         softAssert.assertTrue(numberOfLink > 0, "Latest news count should not be 0");
 
         //Print out link nr 2 href
         String hrefLink = latestNewsCard.getAttribute("href", 2);
-        System.out.println(hrefLink);
+        logger.info(hrefLink);
         softAssert.assertNotNull(hrefLink, "href link should not be null");
 
         //Print out header of the card
@@ -72,6 +76,4 @@ public class HelpPageTest {
     private void afterTest() {
         driver.quit();
     }
-
-
 }
